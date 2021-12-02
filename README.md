@@ -26,9 +26,13 @@ Here's an example of the citation page for a ballad:
 
 I then scraped the data in the table on the citation page. I combined each ballad's citation table into a table of all ballads. I outputting this as a .csv file, which can be opened in MS Excel etc.
 
-|ballad_id|**Date Published**|**Author**|**Standard Tune**|**Imprint**|**License**|**Collection**|**Page**|**Location**|**Shelfmark**|**ESTC ID**|**Keyword Categories**|**Pepys Categories**|**MARC Record**| |**Title**|**Tune Imprint**|**First Lines**|**Refrain**|**Album Page**|**Condition**|**Ornament**|**url**|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-20001|1610||[unknown]|At London printed for William Barley, and are / to be sould at his shop in Gratious Streete / 1610.||Magdalene College - Pepys|1.112|Pepys Library|Pepys Ballads 1.112|S126165|country / nation\|death\|news\|punishment\|royalty|Tragedy|Click to View MARC-XML|Part 1|The lamentabe complaint of Fraunce, for the death of the late King Henry the 4. who was lately murdred by one \/ Fraunces Rauilacke, borne in the towne of Angollem, shewing the manner of his death, and of the election and Proclayming of the new King, Lewis / the 13. of that name, being a childe of 9. yeeres of age.|To a new tune|FRaunce that is so famous, \/ and late in ioyes abounded,||single sheet folio, folded, ?365 x 250|cropped right edge, creased and holed, damaged surface, uneven inking|vertical rules|http://ebba.english.ucsb.edu/ballad/20001/citation|
+This is a sample entry:
+
+ballad\_id|Date Published|Author|Standard Tune|Imprint|License|Collection|Location|Shelfmark|ESTC ID|Keyword Categories|MARC Record|Title|Tune Imprint|First Lines|Refrain|Condition|Ornament|url|Pepys Categories|Album Page|Notes|Pages
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+31603|1663-1674| |Sabina|Printed for F. Coles, T. Vere, and J. Wright| |British Library - Roxburghe|British Library|C.20.f.8.93|R228172|love\|mythology / Classical\|sex / sexuality|Click to View MARC-XML|CVPIDS CVRTESIE: / in the wooing of fair Sabina.|To a pleasant new Tune.|AS on a day Sabina fell asleep, / Into her bower it was my chance to creep,|I first spake soft, \| And thought it best, \| Then did I touch, \| But yet she slept, \| Where Cupids lips, \| With quaking fear,| | |http://ebba.english.ucsb.edu/ballad/31603/citation| | |Printed on the verso of EBBA 31602, entitled "WILLOUGHBY: / Being a true Relation of a famous and bloody BATTEL fought in Flanders, / by the Noble and Valiant Willoughby, with 1500 English, against 40000 Spa- / niards, where the English obtain'd a notable Victory, to the Glory and Renown of our Nation."|2.93 Verso
 
 If ballads have more than one part, then the information on each part is separated by a pipe '|' in the relevant field. E.g. `Title` - 'title of first part|title of second part'. I've done the same for fields with mutliple values, e.g. the `Keyword Categories` field.
+
+In scraping, I found that sometimes the pages of the ballad were listed under 'Pages', and sometimes under 'Page'. I've added all those that were listed under the title 'Page' to the column 'Pages', so there's only one column with page numbers.
 
