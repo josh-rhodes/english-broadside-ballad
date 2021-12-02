@@ -1,7 +1,9 @@
 # english-broadside-ballad
-Parse data from the English Broadside Ballad Archive [(EBBA)](https://ebba.english.ucsb.edu) to create .csv file of ballad metadata
+Parse data from the English Broadside Ballad Archive [(EBBA)](https://ebba.english.ucsb.edu) to create .tsv (tab delimited) file of ballad metadata
 
 As far as I know, there doesn't seem to be metadata on ballads from EBBA in a tabular format. Having information on ballads, e.g. Title, Year etc. in tabular format makes it much more accessible to researchers because they can analyse it in software like MS Excel.
+
+*If all you would like is a .tsv file that can be imported into MS Excel or read by Pandas etc, download the file `EBBA_1500_1800.tsv` This contains metadata for ballads produced between 1500 and 1800 on the EBBA website.*
 
 The EBBA website states that ballad metadata can be accessed via a .xml file download of search results. When looking at the .xml file, I couldn't work out how to differentiate between different tags with the same names, apparently coding different information. Also, there were missing tags - some ballads didn't have their title coded in the .xml but when checking the corresponding 'citation' webpage for the ballad, a title was listed. For this reason, although the .xml file contains more information about the digitisation of the ballad and attributions for that work, I've focused on extracting the information about ballads found on the 'citation' page for each ballad.
 
