@@ -7,7 +7,7 @@ The EBBA website states that ballad metadata can be accessed via a .xml file dow
 
 We still need the .xml file to get a url for each ballad's citation page, though.
 
- The homepage states that there are 9575 ballads, but I haven't been able to return this number via the search field. I tried a wild card '*' in the Title and Full Text fields but this searched for the literal '*'. The most results I've been able to return are 9559, achieved by searching ' ' (a space) in the 'Title' field.
+ The homepage states that there are 9575 ballads, but I haven't been able to return this number via the search field. I tried a wild card '*' in the Title and Full Text fields but this searched for the literal '*'. The most results I've been able to return are 9559, achieved by searching ' ' (a space) in the 'Title' field. The xml page didn't load these results, so I've used a smaller subset. I primarily wanted to look at ballads by date, so limited my search to ballads between 1500-1800, which returned 6800 results. By searching on the date field, we're limited to ballads where the date is given (even if imprecise). So, there will be many ballads that were actually produced between 1500 and 1800, but don't show in the results because the date field is either blank or contains '?'.
 
 On the search results page, click '[View Results as MarcXML]'. There's a download link provided, which didn't download the full .xml file for me. I selected all the xml displayed on the webpage and saved it to a .xml file in a text editor. The xml is not all valid, there were some '&' that were not writting out as '&amp;', but finding and replacing these fixed it. You'll also need to remove the first few and last lines of the xml which aren't part of the xml.
 
