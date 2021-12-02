@@ -40,3 +40,6 @@ If ballads have more than one part, then the information on each part is separat
 
 In scraping, I found that sometimes the pages of the ballad were listed under 'Pages', and sometimes under 'Page'. I've added all those that were listed under the title 'Page' to the column 'Pages', so there's only one column with page numbers.
 
+## EBBA Use Policy
+
+See here for full EBBA Use Policy https://ebba.english.ucsb.edu/page/use-policy. EBBA is open access, licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.
