@@ -1,4 +1,4 @@
-# english-broadside-ballad
+# english-broadside-ballads
 Parse data from the English Broadside Ballad Archive [(EBBA)](https://ebba.english.ucsb.edu) to create .tsv (tab delimited) file of ballad metadata
 
 ## Summary
